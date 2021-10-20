@@ -1,0 +1,378 @@
+body{
+    background-color:#f3f4f8;
+    font-family:Vazir;
+    text-align: right;
+}
+
+*{
+    direction: rtl !important;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-sm{
+    max-width: 768px !important;
+}
+
+.col-md-4{
+    max-width: 220px;
+    padding-right: 0 !important;
+    padding-left: 15px !important;
+}
+
+.col-md-8{
+    max-width: 600px;
+    padding: 0 !important;
+}
+
+.row{
+    max-width: 768px !important;
+}
+
+.pageHeader{
+    width: 100%;
+}
+
+.page-header-items{
+    display: flex;
+    align-items: center;
+}
+
+.page-header-items span{
+    font-size: 6px !important;
+}
+
+.page-header-items i{
+    font-size: 12px !important;
+    color : #8c3dd7 !important;
+}
+
+.page-header-items .widgets_div{
+    margin-left: 0;
+}
+
+.pageHeader h3{
+    font-size: 14px;
+    margin-bottom: 0px !important;
+}
+
+.tags{
+    color : #8c3dd7 !important;
+}
+
+.side-bar-desktop{
+    display: none;
+}
+
+.side-bar-mobile{
+    margin-top: 16px !important;
+    display: block;
+}
+
+.teacher-info{
+    background-color: #ffffff;
+    height: 220px;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+    border: 1px solid #ffffff;
+}
+
+.teacher-info img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.teacher-info label{
+    display: block;
+    text-align: center;
+}
+
+.teacher-info h4{
+    text-align: center;
+}
+
+.courses{
+    margin-top: 5px;
+    background-color: #f6f1f1;
+}
+
+.courses ul {
+    padding: 0 !important;
+}
+
+.courses ul > li {
+    max-height: 90px;
+    display: flex;
+    align-items: center;
+    margin-top:3px;
+    font-size: 12px !important;
+    background-color:#ffffff;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+}
+
+.incoming{
+    background-color:#f3f4f8 !important;
+}
+
+.course-item{
+}
+
+.courses p{
+    margin: 0;
+}
+
+.courses i{
+    font-size: 25px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    color : #8c3dd7;
+}
+
+.courses small{
+    margin: 6px;
+}
+
+.img-post img{
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    margin-top: 15px !important;
+    background-color: #ffffff !important;
+    border: 2px solid #e1e1e1;
+    border-radius: 7px;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+}
+
+.card i{
+    font-size: 30px;
+    color : #8c3dd7;
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+}
+
+.card-body{
+    padding: 3px 20px;
+}
+
+.card h4{
+    font-size: 14px;
+}
+
+.card-text{
+    margin-right: 6px;
+    margin-bottom: 15px !important;
+    display: inline-block;
+    text-align: initial;
+}
+
+.card p{
+    font-size: 10px;
+}
+
+.card-list{
+    font-size: 10px;
+    margin-right: 50px;
+    list-style-type: disc !important;
+}
+
+.registration{
+    margin-top: 15px !important;
+    background-color: #ffffff !important;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.registration .widgets_div{
+    padding: 20px 0 !important;
+}
+
+.widgets_div {
+    padding: 20px 3px;
+    display: flex;
+    align-items: center;
+}
+
+.widgets_div .icon_div {
+    display: inline;
+    margin-left: 10px;
+}
+
+.widgets_div .icon_div span i {
+    font-size: 25px;
+}
+
+.widgets_div .text_div {
+    display: inline;
+}
+
+.registration .text_div span {
+    color: #000000;
+    font-size: 10px !important;
+}
+
+.registration .text_div small {
+    display: inline-block;
+    color: #504c4c;
+    font-size: 8px !important;
+}
+
+.registration i{
+    color: #00dab8 !important;
+    font-size: 25px;
+}
+
+
+.registration a{
+    display: none;
+    height: 30px;
+    background-color: #00dab8;
+    border: none;
+    border-radius: 50px;
+    max-width: 175px;
+    padding: 5px 65px;
+    color: #ffffff;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+}
+
+.description{
+    min-height: 180px;
+}
+
+.course-heading{
+    min-height: 120px;
+}
+
+.contact{
+    min-height: 100px;
+}
+
+.question{
+    min-height: 330px;
+}
+
+.register-mobile{
+    display: block;
+    width: 100%;
+    margin-top:15px;
+    height: 50px;
+    background-color: #00dab8;
+    border: none;
+    border-radius: 8px;
+    padding-top: 12px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+@media (min-width: 600px) {
+    .img-post img{
+        height: 470px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .registration a{
+        display: block;
+        margin: auto;
+    }
+
+    .register-mobile{
+        display: none;
+    }
+
+    .pageHeader h3{
+        font-size: 18px;
+    }
+
+    .page-header-items span{
+        font-size: 12px !important;
+    }
+
+    .registration .text_div span {
+        color: #000000;
+        font-size: 12px !important;
+    }
+    
+    .registration .text_div small {
+        display: inline-block;
+        color: #504c4c;
+        font-size: 10px !important;
+    }
+
+    .page-header-items i{
+        font-size: 20px !important;
+        color : #8c3dd7 !important;
+    }
+
+    .card i{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 730px) {
+
+    .side-bar-desktop{
+        display: block;
+    }
+
+    .side-bar-mobile{
+        display: none;
+    }
+
+    .pageHeader h3{
+        font-size: 22px;
+    }
+
+    .card h4{
+        font-size: 18px;
+    }
+
+    .card p{
+        font-size: 14px;
+    }
+
+    .card-list{
+        font-size: 14px;
+        margin-right: 50px;
+        list-style-type: disc !important;
+    }
+    .page-header-items{
+        max-width: 90%;
+    }
+
+    .page-header-items .widgets_div{
+        margin-left: 20px;
+    }
+
+    .col-md-8{
+        max-width: 470px;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {}
+
